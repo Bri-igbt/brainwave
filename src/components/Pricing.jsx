@@ -3,11 +3,11 @@ import Section from './Section'
 import { smallSphere, stars } from '../assets'
 import Heading from './Heading'
 import PricingList from './PricingList'
-import { LeftLine, RightLine, Rightline } from './design/Pricing'
+import { LeftLine, RightLine } from './design/Pricing'
 
 const Pricing = () => {
     return (
-        <Section className="overflow-hidden" id="pricing">
+        <Section className="overflow-hidden" id="pricing" crosses>
             <div className='container z-2 relative'>
                 <div className='relative justify-center hidden mb-[6.6rem] lg:flex'>
                     <img 
@@ -38,6 +38,10 @@ const Pricing = () => {
                     <PricingList />
                     <LeftLine />
                     <RightLine />
+                </div>
+
+                <div className='flex justify-center mt-10'>
+                    <a className='text-xs font-code font-bold tracking-wider uppercase border-b' href='/pricing'> See the full details </a>
                 </div>
             </div>
         </Section>
