@@ -51,4 +51,4 @@ const PricingList = () => {
     )
 }
 
-export default PricingList
+export default PricingList;
