@@ -1,6 +1,5 @@
 import React from 'react'
 import { pricing } from '../constants'
-import { div } from 'three/tsl'
 import Button from './Button'
 import { check } from '../assets'
 
